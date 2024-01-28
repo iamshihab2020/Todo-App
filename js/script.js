@@ -39,8 +39,7 @@ addBtn.addEventListener("click", () => {
 
 function addTodoItem(todoItem) {
     const newLi = document.createElement("label");
-    newLi.className =
-        "cursor-pointer label todo-content opacity-0 transition-opacity duration-500 ease-in-out";
+    newLi.className = "cursor-pointer label todo-content opacity-0 transition-opacity duration-500 ease-in-out  border-b-2 border-b-primary-content";
 
     newLi.innerHTML = `
             <div class="flex items-center justify-around label-top">
